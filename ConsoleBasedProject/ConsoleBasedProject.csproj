@@ -33,8 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ConsoleBasedProject.nilai</StartupObject>
+    <StartupObject>ConsoleBasedProject.DaftarSiswa</StartupObject>
   </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,9 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BilanganGanjil.cs" />
+    <Compile Include="BilanganGenap.cs" />
+    <Compile Include="DaftarSiswa.cs" />
     <Compile Include="dataUmur.cs" />
     <Compile Include="login.cs" />
     <Compile Include="nilai.cs" />
+    <Compile Include="perkalian10.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
